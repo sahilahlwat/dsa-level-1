@@ -1,0 +1,14 @@
+
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+       Scanner scn = new Scanner(system.in){
+           int n = scn.nextInt();
+           while(n > 0){
+               int dig = n / 10;
+               n = n / 10;
+               system.out.println(dig);
+           }
+       }
+    }
+}
